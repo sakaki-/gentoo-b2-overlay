@@ -7,6 +7,8 @@ Gentoo overlay for the Excito B2 miniserver.
 
 * **sys-kernel/gentoo-b2-sources** [patch](https://github.com/sakaki-/gentoo-b2-kernel-patches)
  * Provides a full set of Linux kernel sources, with both Gentoo and Excito B2 patches applied.
+* **sys-kernel/buildkernel-b2** [source](https://github.com/sakaki-/buildkernel-b2)
+ * Provides a script (**buildkernel-b2**(8)) to build a bootable Gentoo Linux kernel for the Excito B2, targeting either HDD or USB deployment. Can be used on the B2 directly, or on a Gentoo PC (when cross-compiling via `crossdev`). A manpage is included.
 
 ## Installation
 
