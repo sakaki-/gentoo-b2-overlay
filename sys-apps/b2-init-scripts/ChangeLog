@@ -1,0 +1,10 @@
+# ChangeLog for sys-apps/b2-init-scripts
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*b2-init-scripts-1.0.1 (20 Jan 2015)
+
+  20 Jan 2015; sakaki <sakaki@deciban.com> +b2-init-scripts-1.0.1.ebuild,
+  +files/poweroff-b2-1.0.0:
+  Add poweroff-b2 sbin script
+
