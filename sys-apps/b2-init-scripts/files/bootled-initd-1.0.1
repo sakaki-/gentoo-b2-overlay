@@ -1,0 +1,24 @@
+#!/sbin/runscript
+# Turn on solid LED to show we are alive.
+# Copyright (c) 2015 sakaki <sakaki@deciban.com>
+# License: GPL 3.0+
+# NO WARRANTY
+
+depend() {
+    need sysfs
+}
+
+start() {
+    ebegin "Starting bootled"
+    # turn on the sold LED
+    echo "lit" > /sys/devices/platform/bubbatwo/ledmode
+    eend $?
+}
+
+stop() {
+    ebegin "Stopping bootled"
+    # start flashing the LED (rapidly)
+    echo "10000" > /sys/devices/platform/bubbatwo/ledfreq
+    echo "blink" > /sys/devices/platform/bubbatwo/ledmode
+    eend $?
+}
