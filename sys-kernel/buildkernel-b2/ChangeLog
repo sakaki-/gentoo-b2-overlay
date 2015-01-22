@@ -1,0 +1,9 @@
+# ChangeLog for sys-kernel/buildkernel-b2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*buildkernel-b2-1.0.1 (22 Jan 2015)
+
+  22 Jan 2015; sakaki <sakaki@deciban.com> +buildkernel-b2-1.0.1.ebuild:
+  Fix issue mounting /boot from /etc/fstab
+
