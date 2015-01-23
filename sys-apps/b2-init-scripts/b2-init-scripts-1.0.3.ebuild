@@ -21,8 +21,9 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 src_install() {
-	newinitd "${FILESDIR}/bootled-initd-${PV}" "bootled"
-	newinitd "${FILESDIR}/copynetsetup-initd-${PV}" "copynetsetup"
+	newinitd "${FILESDIR}/bootled-initd-1" "bootled"
+	newinitd "${FILESDIR}/copynetsetup-initd-1" "copynetsetup"
+	newsbin "${FILESDIR}/poweroff-b2-1" "poweroff-b2"
 }
 
 pkg_postinst() {
