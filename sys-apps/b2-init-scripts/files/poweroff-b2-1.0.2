@@ -1,0 +1,8 @@
+#!/bin/bash
+# Power down the B2
+# Per http://forum.mybubba.org/viewtopic.php?p=8039#p8039
+# Copyright (c) 2015 sakaki <sakaki@deciban.com>
+# License: GPL 3.0+
+# NO WARRANTY
+echo -e "3735928559">/sys/devices/platform/bubbatwo/magic
+reboot
