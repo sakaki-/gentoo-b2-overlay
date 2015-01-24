@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*buildkernel-b2-1.0.4 (24 Jan 2015)
+
+  24 Jan 2015; sakaki <sakaki@deciban.com> +buildkernel-b2-1.0.4.ebuild:
+  Copy System.map and config in USB builds too
+
 *buildkernel-b2-1.0.3 (24 Jan 2015)
 
   24 Jan 2015; sakaki <sakaki@deciban.com> +buildkernel-b2-1.0.3.ebuild:
