@@ -1,0 +1,10 @@
+# ChangeLog for sys-kernel/gentoo-b2-sources
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*gentoo-b2-sources-4.0.4 (20 May 2015)
+
+  20 May 2015; sakaki <sakaki@deciban.com> +gentoo-b2-sources-4.0.4.ebuild,
+  metadata.xml:
+  Add 4.0.4 kernel support
+
