@@ -11,6 +11,8 @@ Gentoo overlay for the Excito B2 miniserver.
  * Provides a script (**buildkernel-b2**(8)) to build a bootable Gentoo Linux kernel for the Excito B2, targeting either HDD or USB deployment. Can be used on the B2 directly, or on a Gentoo PC (when cross-compiling via `crossdev`). A manpage is included.
 * **sys-apps/b2-init-scripts** [source](https://github.com/sakaki-/gentoo-b2-overlay/tree/master/sys-apps/b2-init-scripts/files)
  * Provides a set of simple init scripts for the B2 (to turn on the LED on boot, copy across network settings when booting etc.).
+* **net-wireless/hostapd** [upstream](http://hostap.epitest.fi)
+ * Provides `hostapd-2.0-r1.ebuild`; this has been removed from the Gentoo tree, but newer versions require (patent-protected) EC from the `openssl` library, which is incompatible with the `bindist` USE flag.
 
 ## Installation
 
