@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gentoo-b2-sources-4.1.3 (29 Jul 2015)
+
+  29 Jul 2015; sakaki <sakaki@deciban.com> +gentoo-b2-sources-4.1.3.ebuild:
+  Add support for 4.1.3 (rev 1 + rev 2 B2s)
+
 *gentoo-b2-sources-4.0.4-r1 (18 Jul 2015)
 
   18 Jul 2015; sakaki <sakaki@deciban.com> +gentoo-b2-sources-4.0.4-r1.ebuild:
