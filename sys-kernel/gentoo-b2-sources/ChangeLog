@@ -1,6 +1,11 @@
 # ChangeLog for sys-kernel/gentoo-b2-sources
-# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*gentoo-b2-sources-4.1.3-r1 (05 Mar 2016)
+
+  05 Mar 2016; sakaki <sakaki@gentoo.org> +gentoo-b2-sources-4.1.3-r1.ebuild:
+  Underlying drops timestamp in patch, which was breaking build
 
   29 Jul 2015; sakaki <sakaki@deciban.com> -gentoo-b2-sources-4.0.4.ebuild,
   -gentoo-b2-sources-4.0.4-r1.ebuild:
