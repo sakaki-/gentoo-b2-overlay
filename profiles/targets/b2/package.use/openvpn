@@ -1,0 +1,3 @@
+# allow openvpn to read passwords from a file
+# move net-misc/openvpn net-vpn/openvpn
+net-vpn/openvpn passwordsave
